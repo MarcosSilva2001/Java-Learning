@@ -13,24 +13,25 @@ public class VECTORES {
         Scanner sc = new Scanner(System.in);
 
         int N;
-        System.out.println("Ingrese el tamaño del vector: ");
+        System.out.print("Ingrese el tamaño del vector: ");
         N = sc.nextInt();
 
         int[] Numeros = new int[N];
         int len = 0;
 
-        System.out.println("\n\t\tCARGA DEL VECTOR\n");
+        // CARGA
+        System.out.print("\n\t\tCARGA DEL VECTOR\n");
         for (int i = 0; i < N; i++) {
 
-            System.out.println("Digite un Numero: ");
+            System.out.print("Digite un Numero: ");
             Numeros[i] = sc.nextInt();
             len++;
         }
-
+        // MOSTRAR
         System.out.println("\n\t\tEL VECTOR CARGADO\n");
         for (int i = 0; i < len; i++) {
 
-            System.out.println(Numeros[i]);
+            System.out.print("  " + Numeros[i]);
         }
 
         sc.close();
