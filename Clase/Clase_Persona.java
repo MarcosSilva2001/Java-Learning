@@ -9,7 +9,7 @@ package Clase;
  */
 
 //Quiero crear la clase Persona , donde Persona va a ser el constructor que me permitira craer Objetos de la clase persona
-public class Persona {
+public class Clase_Persona {
     // Atributos
     String nombre;
     String apellido;
@@ -20,6 +20,7 @@ public class Persona {
         System.out.println("Nombre: " + nombre);
         System.out.println("Apellido: " + apellido);
         System.out.println("Edad: " + edad);
+        System.out.println("-----------------------");
     }
 
 }
