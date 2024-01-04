@@ -1,4 +1,4 @@
-package Caja;
+package CajaArea_Ejercicio;
 
 import java.util.Scanner;
 
