@@ -1,0 +1,9 @@
+paquete\Logica\Alumno_.class
+Main.class
+paquete\Persistencia\ControladoraPersistencia.class
+paquete\Persistencia\exceptions\IllegalOrphanException.class
+paquete\Persistencia\exceptions\NonexistentEntityException.class
+paquete\Logica\Alumno.class
+paquete\Logica\ControladoraLogica.class
+paquete\Persistencia\exceptions\PreexistingEntityException.class
+paquete\Persistencia\AlumnoJpaController.class
